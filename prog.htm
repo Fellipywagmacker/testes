@@ -6,95 +6,188 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Programação </title>
     <style>
-        body{
-            background-color:aqua;
-            font-family:Arial, Helvetica, sans-serif ;
+        .gradient{
+            background: linear-gradient(45deg,	#c7d390, #687466, #fbc490,#c7d390, #687466, #fbc490,	#c7d390, #687466, #fbc490,#c7d390, #687466, #fbc490);
+            background-size: 300% 300%;
+            animation: colors 10s ease infinite;
+            font-family: "Montserrat", sans-serif;
             font-size: 35;
+
+            
         }
+        @keyframes colors {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }                         
         h2{
+            border: 3px solid #fff;
+            border-radius: 20px;
+            font-size: 29px;
+            font-family: "Montserrat", sans-serif;
             text-align: center;
-            background-color: rgb(154, 92, 212);
+            color: rgb(255, 255, 255);
+            width: 100%;
+            height: 35px;            
         }
         p{
             text-align: center;
-
+            font-size: 29px;
+            font-family: "Montserrat", sans-serif;
         }
         ol{
             font-weight: bold;
 
         }
+        .im01{
+            background-image: url(imagem.jpg);
+            background-size: 100%;
+            border-radius: 25px;
+            width:30%;
+            height:355px;
 
+
+        }
+        .im02{
+            position: absolute;
+            background-image: url(imagem01.jpg);
+            background-size: 100%;
+            border-radius: 25px;
+            width:30%;
+            height:355px;
+            right: 524px;
+            top: 704px;
+        }
+        .im03{
+            position: absolute;
+            background-image: url(imagem02.jpg);
+            background-size: 100%;
+            border-radius: 25px;
+            width:30%;
+            height:355px;
+            right: 110px;
+            top: 704px;
+
+        }
+        li{
+            font-size: 18px;
+        }
+        ol{           
+            font-size: 20px;
+            font-family: "Montserrat", sans-serif;
+
+        }
+        ul{
+            font-size: 20px;
+            font-family: "Montserrat", sans-serif;
+        }
+        #test{
+            color:#ffffff;
+            font-size: 20px;
+        }
+
+        
     </style>    
 </head>
-<body>
+<body class="gradient">
     <ul>
-        <li> Estudar </li>
-        <li> Ler </li>
-        <li> Assistir séries e documentários </li>
-        <li> Fazer cursos</li>
+        <li><strong> IFES Campus Serra </li>
+        <li> Dara Mendes Botecchia </li>
+        <li> Prog Web 1 </li>
+        <li> Virtudes da vida </strong></li>
     </ul>
     <br>
     <ol> 
-        <h3> MANHÃ </h3> 
-        <li> 05:50AM </li>
-        <li> Banho/ Me preparar para a escola </li>
+        <h3> FÉ </h3> 
+        <li> Amor </li>
+        <li> Esperança </li>    
+        <li> Coragem </li>
+        <li> Vida </li>
         <br>
-        <li> 07:30AM </li>
-        <li> Escola </li>
+    
+        <li> Gratidão </li>
+        <li> Paciência </li>
         <br>
-        <li> 13:00 PM </li>
-        <li> Chegar da escola </li>
+    </ol>
+    <ol>
+        <h3> FAMÍLIA </h3>
+        <li> Amigos </li>
+        <li> Paixão </li>
+        <li> Viver é a coisa mais rara do mundo! </li>
+        <li> Viva com amor! </li>
         <br>
-        <h3> TARDE </h3>
-        <li> 13:00PM </li>
-        <li> Banho/Almoço. </li>
-        <br>
-        <li> 14:00 - 18:30PM </li>
-        <li> Estudar e assistir documentários </li>
-        <br>
-        <h3> NOITE </h3>
-        <li> 19:00PM </li>
-        <li> Banho/ Assistir séries e logo depois ir dormir </li>
+    </ol>
+    <ol>
+        <h3> VIVA COM TUDO! </h3>
+        <li> Viva! </li>
+        <li> Deus acima de tudo!. </li>
 
     </ol>
-    <img src="imagem.jpg" width="30%" height="25%">
-    <br>
+
+    <div class="im01">
+
+    </div>
+
+    <div class="im02">
+
+    </div>
+
+    <div class="im03">
+
+    </div>
+
+
     <ul>
-        <li><a href="https://ava.cefor.ifes.edu.br/" rel="external"> Ava Cefor </a></li>
-        <li><a href="pag02.htm" rel="next"> Link para página 02 </a></li>
-        <li><a href="#js"> Javascript </a></li>
-        <li><a href="#py"> Python </a></li>
-        <li><a href="#bd"> Banco de Dados </a></li>
+        <li><a href="https://ava.cefor.ifes.edu.br/" id="test" rel="external"> Ava Cefor </a></li>
+        <li><a href="pag02.htm" id="test" rel="next"> Link para página 02 </a></li>
+        <li><a href="#beleza" id="test"> Beleza </a></li>
+        <li><a href="#amor" id="test"> Amor </a></li>
+        <li><a href="#forca" id="test" > Força </a></li>
     </ul>
-    <h2> LINGUAGEM DE PROGRAMAÇÃO </h2>
-    <p>
-        É importante começar por uma linguagem de programação que tenha uma comunidade bastante ativa, onde você poderá encontrar fáceis soluções para os seus problemas.
-        Isso não é muito difícil hoje em dia, veja algumas das linguagens de programação mais utilizadas nos dias de hoje:
-    </p>
+ 
+
+    <h2> CORAGEM </h2>   
+    <p> <strong> Coragem é a primeira das qualidades humanas porque garante todas as outras. </strong></p>
     <br>
     <br>
     <br>
+
+    <h2 id="beleza"> BELEZA </h2>
+    <p><strong> ⁠Pele negra </p>
+    <p> Ó, que beleza! </p>
+    <p> Só podia ser obra da natureza. </p>
+    <p> O sol forte </p> 
+    <p> E o suor escorrendo na pele </p>
+    <p> Combinação perfeita, </p>
+    <p> Então é brilho que sai da pele negra. </p>
+    <p> Tão bonita, </p> 
+    <p> Eu a invejo, </p> 
+    <p> Mas é uma inveja saudável </p>   
+    <p> Que até versifico, </p>
+    <p> Algo tão admirável. </strong></p>
+
     <br>
-    <h2 id="js"> Javascript </h2> 
-    <p>
-        Talvez seja a linguagem de programação que mais cresceu e ganhou mercado nos últimos anos.
-    </p>
+    <br>
+    <br>
+   
+    <h2 id="amor"> AMOR </h2>
+    <p><strong> Um coração feliz é o resultado inevitável de um coração ardente de amor. </strong></p>
     <br>
     <br>
     <br>
-    <br>
-    <h2 id="py"> Python </h2>
-    <p>
-        A linguagem com o maior nicho de atuação do mercado de trabalho. Sendo assim, é fácil encontrar ajuda em qualquer área de atuação.
-    </p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h2 id="bd"> Banco de dados </h2>
-    <p>
-        Um dos pilares mais importantes para qualquer um que deseja se tornar um programador. Já se foi a época em que tudo era gravado em um arquivo local, no computador, e o sistema lia o mesmo.
-        Com o passar dos anos, cresceu a demanda de desenvolvedores com conhecimento abrangente em banco de dados.
-    </p>
+
+
+    <h2 id="forca"> FORÇA </h2>
+    <p><strong> O Senhor é a minha luz e a minha salvação; </p>
+    <p> de quem terei temor? </p>
+    <p> O Senhor é o meu forte refúgio; </p>
+    <p> de quem terei medo? </p>
+    <p> Salmos 27:1 </strong></p>
 </body>
 </html>
